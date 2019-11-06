@@ -1,0 +1,13 @@
+/* RESET */
+body, ul, li, p {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
