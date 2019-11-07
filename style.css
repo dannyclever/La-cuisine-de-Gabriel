@@ -57,9 +57,46 @@ a {
     margin-left: 6px;
 }
 
+.menu li .btn-down {
+    margin-bottom: 2px!important;
+}
+
 .menu li a img {
     height: auto;
     width: 146px;
     border-radius: 74px;
     background: #DEE4E6;
+}
+
+.container {
+    background: #FFFFFF;
+}
+
+.container .banner {
+    /*display: flex;
+    justify-content: center;
+    text-align: center;*/
+    background: url(/img/banner.jpg) no-repeat;
+    height: 400px;
+    margin: 0 300px;
+}
+
+.container .title span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #270C08!important;
+    /*color: #57433f!important;*/
+}
+
+.container .title #uppercase {
+    text-transform: uppercase;
+    font-size: 24px!important;
+    padding-top: 5px;
+}
+
+.container .title #lowercase {
+    font-family: 'Gloria Hallelujah', cursive;
 }
