@@ -68,20 +68,33 @@ a {
     background: #DEE4E6;
 }
 
-.container {
-    background: #FFFFFF;
+.principal {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em;
 }
 
-.container .banner {
-    /*display: flex;
+.principal .banner {
+    display: flex;
     justify-content: center;
-    text-align: center;*/
-    background: url(/img/banner.jpg) no-repeat;
+    text-align: center;
+    background: url(/img/restaurant.jpg) no-repeat;
     height: 400px;
-    margin: 0 300px;
+    width: 600px;
+    /*margin: 0 300px;*/
 }
 
-.container .title span {
+.principal .banner2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: url(/img/bakery-baking-berry-357623.jpg) no-repeat;
+    height: 386px;
+    width: 600px;
+    /*margin: 0 300px;*/
+}
+
+.principal .title span {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -91,12 +104,12 @@ a {
     /*color: #57433f!important;*/
 }
 
-.container .title #uppercase {
+.principal .title #uppercase {
     text-transform: uppercase;
     font-size: 24px!important;
     padding-top: 5px;
 }
 
-.container .title #lowercase {
+.principal .title #lowercase {
     font-family: 'Gloria Hallelujah', cursive;
 }
