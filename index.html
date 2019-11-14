@@ -5,42 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Author" content="Dany Clever">
-    <link rel="shortcut icon" href="/img/logo.jpg" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Satisfy&display=swap" rel="stylesheet">
+    <meta name="Author" content="Neto Daniel Zinga">
+    <meta name="Description" content="Site web de La Cuisine de Gabriel">
+    <script src="https://kit.fontawesome.com/3281b8c2eb.js" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>La cuisine de Gabriel</title>
+    <title>La Cuisine de Gabriel</title>
 </head>
 
 <body>
-    <header class="header">
-        <nav class="menu">
+    <section>
+        <header>
+            <a href="#" class="logo"><img src="./img/logo.jpg"></a>
+            <a class="menu-toggle" href="#"><i class="fas fa-bars"></i></a>
             <ul>
                 <li class="menu-item"><a href="#">Accueil</a></li>
-                <li class="menu-item"><a class="btn-down" href="#">Nos Services</a></li>
-                <li class="menu-item"><a href="#">Actualités</a></li>
-                <li class="menu-item"><a href="#"><img src="./img/logo.jpg" alt="Logo de la cuisine de Gabriel"></a>
+                <li class="menu-item btn-down"><a href="#">Nos Services</a>
                 </li>
-                <li class="menu-item"><a href="#">Recrutement</a></li>
-                <li class="menu-item"><a href="#">à propos de nous</a></li>
+                <li class="menu-item"><a href="#">Actualités</a></li>
+                <li class="menu-item"><a href="#">À propos de nous</a></li>
                 <li class="menu-item"><a href="#">Contacts</a></li>
             </ul>
-        </nav>
+        </header>
+    </section>
 
-    </header>
-    <main class="container">
-        <div class="principal">
-            <!--<p class="title">
-                <span id="uppercase">La cuisine de Gabriel</span>
-                <span id="lowercase">une prestigieuse cuisine fondée en 1982</span>
-            </p>-->
-            <section class="banner">
-            </section>
-            <section class="banner2">
-            </section>
-        </div>
-    </main>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.menu-toggle').click(function () {
+                $('ul').toggleClass('active');
+            })
+        });
+    </script>
 </body>
 
 </html>
