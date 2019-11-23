@@ -9,6 +9,9 @@
     <meta name="Description" content="Site web de La Cuisine de Gabriel">
     <script src="https://kit.fontawesome.com/3281b8c2eb.js" crossorigin="anonymous"></script>
     <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand|Open+Sans+Condensed:300&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>La Cuisine de Gabriel</title>
 </head>
@@ -21,12 +24,12 @@
             <ul class="navbar">
                 <li class="menu-item"><a href="#">Accueil</a></li>
                 <li class="menu-item btn-down"><a href="#">Nos Services</a>
-                    <ul class="services">
+                    <!-- <ul class="services">
                         <li class="sub-menu-item"><a href="#">Traiteur et réceptions</a></li>
                         <li class="sub-menu-item"><a href="#">Restaurant</a></li>
                         <li class="sub-menu-item"><a href="#">Boutique</a></li>
                         <li class="sub-menu-item"><a href="#">Professionnels</a></li>
-                    </ul>
+                    </ul>-->
                 </li>
                 <li class="menu-item"><a href="#">Actualités</a></li>
                 <li class="menu-item"><a href="#">À propos de nous</a></li>
@@ -34,6 +37,18 @@
             </ul>
         </header>
     </section>
+    <div class="pub_section">
+        <div class="pub_content">
+            <h3>La Cuisine de Gabriel</h3>
+            <h1>L’art de la culinaire antillaise, française et africaine un plaisir à partager</h1>
+            <p>Nostalgique des saveurs de l’enfance&nbsp;? Des vacances&nbsp;? Fin gourmet en recherche de plaisirs
+                authentiques ? Soyez le bienvenu dans notre boutique-épicerie fine et notre restaurant. Le petit plus ?
+                Notre offre traiteur. C’est l’atout charme des réceptions privées ou professionnelles réussies. Nous
+                fournissons aussi les professionnels de la restauration, avec nos pains et pâtisseries élaborés en
+                continu, et distribués par nos livreurs. L’assurance de produits ultra-frais et d’un service exclusif.
+            </p>
+        </div>
+    </div>
 
     <script type="text/javascript">
         $(document).ready(function () {
@@ -41,10 +56,6 @@
                 $('ul').toggleClass('active');
             })
         });
-
-        /*$( "#outer" ).mouseover(function() {
-  $( "#log" ).append( "<div>Handler for .mouseover() called.</div>" );
-});*/
     </script>
 </body>
 
