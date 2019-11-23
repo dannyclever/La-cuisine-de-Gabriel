@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #fff;
     font-family: "Open Sans",Arial,sans-serif;
+    font-size: 100%;
 }
 
 a {
@@ -14,6 +15,8 @@ a {
 ul li {
     list-style: none;
 }
+
+/*HEADER AND THE BANNER*/
 
 section {
     position: relative;
@@ -162,7 +165,7 @@ header {
     text-align: center;
     color: #291a18;
     font-family: 'Gochi Hand', cursive;
-    font-size: 79px;
+    font-size: 69px;
     letter-spacing: -1px;
     line-height: 0.8em;
     margin: 0 165px;
