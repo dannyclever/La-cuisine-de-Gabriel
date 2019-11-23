@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff;
-    font-family: "Open Sans",Arial,sans-serif;
+    font-family: 'Open Sans',Arial,sans-serif;
     font-size: 100%;
 }
 
@@ -174,22 +174,21 @@ header {
 .pub_content p {
     text-align: center;
     color: #291a18;
-    font-size: 22px;
+    font-size: 18px;
     padding: 8px 158px;
 }
 
-@media(max-width: 992px) {
+@media(max-width: 900px) {
     .pub_content h3 {
-        font-size: 40px;
-        margin: 20px;
+        font-size: 20px;
     }
     .pub_content h1 {
         font-size: 35px;
         margin: 20px;
     }
     .pub_content p {
-        padding: 15px;
         font-size: 15px;
+        padding: 0 50px;
     }
 }
 
